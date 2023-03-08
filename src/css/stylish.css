@@ -1,0 +1,145 @@
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.profile img {
+    margin: 15px auto;
+    display: block;
+    width: 200px;
+    border: 8px solid #2c2f3f;
+}
+
+.profile h1 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: 'Josefin Slab';
+}
+
+.nav-menu {
+    padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #a8a9b4;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+  color: #149ddd;
+}
+
+.nav-menu a span {
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-family: "Josefin Sans", monospace;
+    font-size: 18px;
+}
+
+.nav-menu a .listmenu {
+    color: aqua;
+}
+
+.navsidebar {
+    flex: 0 0 300px;
+    position: fixed;
+    top: 0px;
+    width: 300px;
+}
+
+@media (max-width: 690px) {
+    .navsidebar {
+        display: none;
+    }
+}
+
+.bgcont {
+    background-size: cover;
+}
+
+.contentspace {
+    padding: 0;
+    margin-left: 300px;
+}
+
+.homestyle h1 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+}
+
+.homestyle p {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: 'Josefin Sans';
+}
+
+.aboutstyle h2 {
+    font-size: 50px;
+    -moz-text-align-last: left;
+    text-align-last: left;
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+}
+
+.aboutstyle p {
+    font-size: 20px;
+    -moz-text-align-last: left;
+    text-align-last: left;
+    font-family: 'Josefin Sans';
+}
+
+.aboutlist strong,
+.aboutlist span,
+.aboutlist a  {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Josefin Sans';
+}
+
+.aboutlist li {
+    margin: 0;
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+.card-img-top {
+    height: 25vw;
+    object-fit: cover;
+}
+
+.cardtexttitle {
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 8px;
+}

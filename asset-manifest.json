@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cda8416.css",
+    "main.js": "/static/js/main.f925ead4.js",
+    "static/media/calibg.jpg": "/static/media/calibg.cf304189bd50b508714e.jpg",
+    "static/media/me.jpg": "/static/media/me.3be688139eba6c2655d5.jpg",
+    "static/media/mapexample.png": "/static/media/mapexample.96f13ffb2054816faa38.png",
+    "static/media/compiler.jpg": "/static/media/compiler.5c99b09f2fdc5022c657.jpg",
+    "index.html": "/index.html",
+    "main.9cda8416.css.map": "/static/css/main.9cda8416.css.map",
+    "main.f925ead4.js.map": "/static/js/main.f925ead4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cda8416.css",
+    "static/js/main.f925ead4.js"
+  ]
+}
